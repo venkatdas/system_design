@@ -1,7 +1,6 @@
 {
   "pasteImage.path": "${projectRoot}/assets/images",
-  "pasteImage.prefix": "./assets/images",
   "pasteImage.nameFormat": "YYYY-MM-DD-HH-mm-ss",
-  "pasteImage.insertPattern": "![$${imageFileNameWithoutExt}]($${imageFilePath})",
+  "pasteImage.insertPattern": "![${imageFileNameWithoutExt}](../assets/images/${imageFileName})",
   "pasteImage.showFilePathConfirmInputBox": false
 }
